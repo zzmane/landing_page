@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="nav">
-            <h1>Zayan/Ahmed</h1>
-            <ul class="nav-links">
-                <li>header link one</li>
-                <li>header link two</li>
-                <li>header link three</li>
+            <div class="navLogo">Weeknd ❤️</div>
+            <ul class="navLinks">
+                <li><a href="https://en.wikipedia.org/wiki/The_Weeknd">Wiki</a></li>
+                <li><a href="https://www.theweeknd.com/">Weeknd Site</a></li>
+                <li><a href="https://www.theweeknd.com/tour">Concerts</a></li>
             </ul>
         </div>
-        <div class="header-content">
-            <div class="header-content-left">
-            <h2>This website is awesome</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium et quod totam. Vel placeat ea beatae optio fuga sint fugiat facere amet, praesentium aut hic, qui culpa nisi officiis distinctio.</p>
-            <button>Sign up</button>
+        <div class="subHeader">
+            <div class="leftHeader">
+                <h1 class="heroMain">The Weeknd is the best artist currently!</h1>
+                <h6 class="subText">This website is a test and practice site dedicated to the hiphop/rnb artist called
+                    Weeknd.</h6>
+                <button type="button" class="headerbtn">Sign up</button>
             </div>
-        <div class="header-content-right">
-            <img class="header-picture" src="images/ippo.jpg" alt="ippo image">
-        </div>
+            <img src="/images/wk.jpg" alt="image of weeknd" class="imgRight">
         </div>
     </header>
 
-    <section class="section-second">
-        <div class="title">Some random Information!</div>
-    <div class="second-container">
-      <div class="info">
-        <img src="http://wiki.chisels-and-bits.com/assets/images/items/minecraft/magenta_stained_glass.png" alt="barberry">
-        <div class="text">This is a type of plant. We love this one.</div>
-      </div>
-      <div class="info">
-        <img src="http://wiki.chisels-and-bits.com/assets/images/items/minecraft/magenta_stained_glass.png" alt="chili">
-        <div class="text">This is another type of plant. Isn't it nice?</div>
-      </div>
-      <div class="info">
-        <img src="http://wiki.chisels-and-bits.com/assets/images/items/minecraft/magenta_stained_glass.png" alt="pepper">
-        <div class="text">We have so many plants. Yay plants.</div>
-      </div>
-      <div class="info">
-        <img src="http://wiki.chisels-and-bits.com/assets/images/items/minecraft/magenta_stained_glass.png" alt="saffron">
-        <div class="text">I'm running out of things to say about plants.</div>
-      </div>
-    </div>
+    <section class="section1">
+        <div class="s2Title">Some random information.</div>
+        <div class="boxContainer">
+            <div class="box">
+                <img src="/images/box.jpg" alt="" wdith="100px">
+                <div class="info">Weeknd's real name is Abel Makkonen Tesfaye</div>
+            </div>
+            <div class="box">
+                <img src="/images/box2.jpg" alt="" wdith="100px">
+                <div class="info">He speaks 3 languages. Ethiopian, French and finally English.</div>
+            </div>
+            <div class="box">
+                <img src="/images/box3.jpg" alt="" wdith="100px">
+                <div class="info">He used to work at American Apparel. He folded shirts!</div>
+            </div>
+            <div class="box">
+                <img src="/images/box4.jpg" alt="" wdith="100px">
+                <div class="info">He was homeless for a bit. He had to tell girls he loved them so he would have a place
+                    to stay.</div>
+            </div>
+        </div>
     </section>
 
-    <section class="third-section">
-        <p>This inspiring quote or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
-        <p>Thor, God of Thunder</p>
+    <section class="section2">
+        <div class="quote">"You fall in love with the little things about someone, like the sound of their laughter
+            and the way their smile forms."</div>
+        <div class="author">-The Weeknd</div>
     </section>
-    <section class="fourth-section">
-        <h4>Call to action! It's time!</h4>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
+
+    <section class="section3">
+        <div class="actionLeft">
+            <h4 class="action">Do you love the weeknd too?</h4>
+            <h6 class="actionSub">If you enjoy the musical stylings of the weeknd as much as me, hit that button over
+                there to go and subscribe to Weeknd's youtube page.</h6>
+        </div>
+        <div class="actionRight">
+            <form action="https://www.youtube.com/channel/UC0WP5P-ufpRfjbNrmOWwLBQ">
+                <input class="btn" type="submit" value="Subscribe">
+            </form>
+        </div>
     </section>
-    <footer>
-        <div class="footer">Copyright C The Odin Project 2021</div>
-    </footer>
+
+    <footer>Copyright © The Odin Project 2022</footer>
+
 </body>
+
 </html>
